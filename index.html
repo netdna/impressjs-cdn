@@ -1,0 +1,118 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>impress.js CDN | Free impress.js hosting on NetDNA's Content Delivery Network</title>
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers. NetDNA is a Content Delivery Network based out of Los Angeles, CA." />
+    <meta name="author" content="Justin Dorfman" />
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet"/>
+    <link href="//netdna.impressjscdn.com/impressjs/0.5.3/css/impress-demo.css" rel="stylesheet" />
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.1.1/css/bootstrap-combined.min.css" rel="stylesheet">    
+    <link rel="shortcut icon" href="favicon.png" />
+</head>
+<body>
+<!--
+
+<body class="impress-not-supported">
+
+<!--
+    For example this fallback message is only visible when there is `impress-not-supported` class on body.
+-->
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with 
+a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> 
+browser.</p>
+</div>
+
+<div id="impress">
+
+    <div id="cdn" class="step slide" data-x="-1000" data-y="-1500">
+        <q>Aren't you just <b>sick</b> of hosting impress.js on your origin server?</q><br>
+	thought so, that is why <a href="http://www.netdna.com/?utm_source=impressjscdn&utm_medium=FirstSlide&utm_campaign=link" target="_blank">NetDNA</a> wanted to do something about it.<br><br>
+<center>
+	<input type="text" style="width: 66%; height: 30px;" value="&lt;script 
+src=&quot;//netdna.impressjscdn.com/impressjs/0.5.3/js/impress.js&quot;&gt;&lt;/script&gt;">
+<br /><br />
+<a href="http://www.netdna.com/?utm_source=impressjscdn&utm_medium=FirstSlide&utm_campaign=BlackLogo" target="_blank" border="0"><img src=img/netdna-logo.png></a></center>
+    </div>
+
+    <div class="step slide" data-x="0" data-y="-1500">
+        <h2>Legacy Support</h2> 
+		<h3>0.5.2</h3>
+		<center>
+				<input type="text" style="width: 66%; height: 30px;" value="&lt;script src=&quot;//netdna.impressjscdn.com/impressjs/0.5.2/js/impress.js&quot;&gt;&lt;/script&gt;">
+			<br /><br />
+		</center>
+		<h3>0.5.1</h3>
+		<center>
+				<input type="text" style="width: 66%; height: 30px;" value="&lt;script src=&quot;//netdna.impressjscdn.com/impressjs/0.5.1/js/impress.js&quot;&gt;&lt;/script&gt;">
+			<br /><br />
+		</center>
+    </div>
+
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+    </div>
+   
+    <div id="maxcdn" class="step" data-x="850" data-y="3000" data-scale="5">
+	<p>Check out <a href="http://www.maxcdn.com/?utm_source=impressjscdn&utm_medium=maxcdn-slide&utm_campaign=link" target="_blank">MaxCDN</a></p>
+	<a href="http://www.maxcdn.com/?utm_source=impressjscdn&utm_medium=maxcdn-slide&utm_campaign=img-max-juggle" target="_blank"><img src="img/max-juggling.png" border="0"></a>
+    </div>
+
+    <div id="terms" class="step slide" data-x="1000" data-y="-1500">
+  		<h2>ACCEPTANCE OF TERMS.</h2>
+		<p style="font-size: 17px;">The services that NetDNA provides to you are subject to the following Terms of Use ("TOU"). NetDNA reserves the right to update the TOU at any time without notice to you. The most current version of the TOU can be reviewed by clicking on the "Terms of Use" hypertext link located at the bottom of our Web pages.</p>
+  		<h2>NO UNLAWFUL OR PROHIBITED USE.</h2>
+		<p style="font-size: 17px;">As a condition of your use of this Service, you will not use this free service for any purpose that is unlawful or prohibited by these terms, conditions, and notices. You may not use this free service in any manner that could damage, disable, overburden, or impair any NetDNA server, or the network(s) connected to any NetDNA server, or interfere with any other party's use and enjoyment of any Services. You may not attempt to gain unauthorized access to computer systems or networks connected to any NetDNA server or to any of the Services, through hacking, password mining or any other means. You may not obtain or attempt to obtain any materials or information through any means not intentionally made available through this free Service.</p>
+  		<h2>ACCEPTANCE OF TERMS.</h2>
+		<p style="font-size: 17px;">This free service is available for Personal, Commercial & Non-Commercial use. We reserve the right to display the Trademarked logos of those Commercial and/or Non-Profit Institutions on any page of this site. If you are no longer using this Service and wish that your logo be removed please email support-at-netdna.com.</p>
+
+    </div>
+
+</div>
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<script src="http://netdna.impressjscdn.com/impressjs/0.5.3/js/impress.js"></script>
+<script>impress().init();</script>
+
+<div style="position: fixed; bottom: 10px; left: 10px; pointer-events: auto;">
+    <iframe src="http://ghbtns.com/github-btn.html?user=netdna&repo=impressjs-cdn&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110px" height="20px"></iframe>
+    <iframe src="http://ghbtns.com/github-btn.html?user=netdna&repo=impressjs-cdn&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110px" height="20px"></iframe>
+
+    <a href="http://twitter.com/share" class="twitter-share-button" data-text="impress.js CDN - impress your audience with @NetDNA/@MaxCDN's super fast Network. via @jdorfman" 
+data-url="http://www.impressjscdn.com"></a>
+<a href="https://twitter.com/NetDNADeveloper" class="twitter-follow-button" data-show-count="false">Follow @NetDNADeveloper</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <!-- <script src="//platform.twitter.com/widgets.js"></script> -->
+<p style="font-size: 10px;">&copy; 2012 - NetDNA LLC. - impress.js is copyrighted by <a href="http://twitter.com/bartaz" target="_blank">Bartek Szopka</a>. Please read the <a href="#terms">Terms of Use</a>.</p>
+</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32253110-2']);
+  _gaq.push(['_setDomainName', 'impressjscdn.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript">$("input:text").focus(function(){$(this).select();$(this).mouseup(function(a){a.preventDefault()})});</script>
+</body>
+</html>
